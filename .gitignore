@@ -6,3 +6,4 @@ venv/ myenv*/
 mlruns/           # MLflow local runs
 artifacts/        # local artifacts
 .DS_Store
+/titanic.csv
