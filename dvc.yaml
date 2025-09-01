@@ -1,0 +1,8 @@
+stages:
+  train:
+    cmd: python lab_pro2.py
+    deps:
+      - lab_pro2.py
+      - titanic.csv
+    outs:
+      - artifacts/model.pkl
